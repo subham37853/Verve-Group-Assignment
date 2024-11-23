@@ -59,11 +59,7 @@ Or, install Redis locally by following [Redis Installation Guide](https://redis.
    tar -xvf kafka_2.13-3.4.0.tgz
    cd kafka_2.13-3.4.0
    ```
-2. Start ZooKeeper:
-   ```bash
-   bin/zookeeper-server-start.sh config/zookeeper.properties
-   ```
-3. Start Kafka Broker:
+2. Start Kafka Broker:
    ```bash
    bin/kafka-server-start.sh config/server.properties
    ```
@@ -89,23 +85,7 @@ kafka:
 
 ---
 
-### **6. Run the Application**
-Start the application:
-```bash
-./gradlew bootRun
-```
-
----
-
-### **7. Test the API**
-Send a POST request to the `/api/v1/unique` endpoint:
-```bash
-curl -X POST http://localhost:8080/api/v1/unique?id=<unique-id>
-```
-
----
-
-### **8. Monitor Logs**
+### **6. Monitor Logs**
 The application logs unique request counts every minute. Check the logs in the console or the generated log file.
 
 ---
@@ -121,6 +101,14 @@ The application logs unique request counts every minute. Check the logs in the c
    ```bash
    docker run -p 8080:8080 --name verve-assignment-container verve-assignment
    ```
+
+---
+
+### **7. Test the API**
+Send a POST request to the `/api/v1/unique` endpoint:
+```bash
+curl -X POST http://localhost:8080/api/v1/unique?id=<unique-id>
+```
 
 ---
 
@@ -141,5 +129,4 @@ The application logs unique request counts every minute. Check the logs in the c
 ---
 
 ## **Contributors**
-- Your Name
-
+Shubham Prasad
