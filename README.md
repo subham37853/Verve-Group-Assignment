@@ -17,8 +17,8 @@ This project is a Spring Boot application designed to handle unique request IDs,
 
 ---
 
-## **Requirements**
+## **Requirements & Pre-requisites**
 - Java 17 or higher
-- Redis server
-- Kafka server
+- Redis server running on port 6379
+- Kafka server running on localhost 9092
 - Docker (optional for containerized deployment)
