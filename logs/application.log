@@ -1,0 +1,474 @@
+2024-11-24T22:53:54.319+05:30  INFO 90313 --- [assignment] [main] c.v.a.init.AssignmentApplication         : Starting AssignmentApplication using Java 17.0.5 with PID 90313 (/Users/shprasad/Desktop/Projects/assignment/build/classes/java/main started by shprasad in /Users/shprasad/Desktop/Projects/assignment)
+2024-11-24T22:53:54.324+05:30  INFO 90313 --- [assignment] [main] c.v.a.init.AssignmentApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-11-24T22:53:54.788+05:30  INFO 90313 --- [assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-24T22:53:54.790+05:30  INFO 90313 --- [assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-24T22:53:54.804+05:30  INFO 90313 --- [assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-11-24T22:53:55.022+05:30  INFO 90313 --- [assignment] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9091 (http)
+2024-11-24T22:53:55.030+05:30  INFO 90313 --- [assignment] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-24T22:53:55.031+05:30  INFO 90313 --- [assignment] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-24T22:53:55.081+05:30  INFO 90313 --- [assignment] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-24T22:53:55.082+05:30  INFO 90313 --- [assignment] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 730 ms
+2024-11-24T22:53:55.625+05:30  INFO 90313 --- [assignment] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-11-24T22:53:55.679+05:30  INFO 90313 --- [assignment] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9091 (http) with context path '/'
+2024-11-24T22:53:55.689+05:30  INFO 90313 --- [assignment] [main] c.v.a.init.AssignmentApplication         : Started AssignmentApplication in 1.579 seconds (process running for 3.477)
+2024-11-24T22:54:16.929+05:30  INFO 90313 --- [assignment] [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-24T22:54:16.930+05:30  INFO 90313 --- [assignment] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-24T22:54:16.931+05:30  INFO 90313 --- [assignment] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-24T22:54:17.142+05:30  INFO 90313 --- [assignment] [http-nio-9091-exec-1] c.v.a.controller.VerveController         : Processing endpoint: H3MAyrsf
+2024-11-24T22:54:20.531+05:30  INFO 90313 --- [assignment] [http-nio-9091-exec-3] c.v.a.controller.VerveController         : Processing endpoint: 72IS6lU7
+2024-11-24T22:54:20.776+05:30  INFO 90313 --- [assignment] [http-nio-9091-exec-4] c.v.a.controller.VerveController         : Processing endpoint: 3PIgBb_M
+2024-11-24T22:54:21.058+05:30  INFO 90313 --- [assignment] [http-nio-9091-exec-5] c.v.a.controller.VerveController         : Processing endpoint: NocY0yNT
+2024-11-24T22:54:21.250+05:30  INFO 90313 --- [assignment] [http-nio-9091-exec-6] c.v.a.controller.VerveController         : Processing endpoint: t3gACvtY
+2024-11-24T22:54:21.453+05:30  INFO 90313 --- [assignment] [http-nio-9091-exec-7] c.v.a.controller.VerveController         : Processing endpoint: vzJaxXmA
+2024-11-24T22:54:21.656+05:30  INFO 90313 --- [assignment] [http-nio-9091-exec-8] c.v.a.controller.VerveController         : Processing endpoint: wvEvPR08
+2024-11-24T22:54:21.866+05:30  INFO 90313 --- [assignment] [http-nio-9091-exec-9] c.v.a.controller.VerveController         : Processing endpoint: S8R3si4a
+2024-11-24T22:56:47.039+05:30  INFO 90313 --- [assignment] [http-nio-9091-exec-7] c.v.a.controller.VerveController         : Processing endpoint: yHkZOYWB
+2024-11-24T22:56:47.949+05:30  INFO 90313 --- [assignment] [http-nio-9091-exec-8] c.v.a.controller.VerveController         : Processing endpoint: VWg50chE
+2024-11-24T22:58:32.970+05:30  INFO 90313 --- [assignment] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-24T22:58:33.977+05:30  INFO 90313 --- [assignment] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-11-24T22:58:36.704+05:30  INFO 90734 --- [assignment] [main] c.v.a.init.AssignmentApplication         : Starting AssignmentApplication using Java 17.0.5 with PID 90734 (/Users/shprasad/Desktop/Projects/assignment/build/classes/java/main started by shprasad in /Users/shprasad/Desktop/Projects/assignment)
+2024-11-24T22:58:36.705+05:30  INFO 90734 --- [assignment] [main] c.v.a.init.AssignmentApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-11-24T22:58:37.123+05:30  INFO 90734 --- [assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-24T22:58:37.125+05:30  INFO 90734 --- [assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-24T22:58:37.141+05:30  INFO 90734 --- [assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-11-24T22:58:37.407+05:30  INFO 90734 --- [assignment] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9091 (http)
+2024-11-24T22:58:37.413+05:30  INFO 90734 --- [assignment] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-24T22:58:37.413+05:30  INFO 90734 --- [assignment] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-24T22:58:37.437+05:30  INFO 90734 --- [assignment] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-24T22:58:37.437+05:30  INFO 90734 --- [assignment] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 714 ms
+2024-11-24T22:58:37.985+05:30  INFO 90734 --- [assignment] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-11-24T22:58:38.018+05:30  INFO 90734 --- [assignment] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9091 (http) with context path '/'
+2024-11-24T22:58:38.029+05:30  INFO 90734 --- [assignment] [main] c.v.a.init.AssignmentApplication         : Started AssignmentApplication in 1.515 seconds (process running for 1.927)
+2024-11-24T22:58:38.258+05:30  INFO 90734 --- [assignment] [scheduling-1] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = assignment-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2024-11-24T22:58:38.281+05:30  INFO 90734 --- [assignment] [scheduling-1] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2024-11-24T22:58:38.292+05:30  INFO 90734 --- [assignment] [scheduling-1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=assignment-producer-1] Instantiated an idempotent producer.
+2024-11-24T22:58:38.313+05:30  INFO 90734 --- [assignment] [scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.8.1
+2024-11-24T22:58:38.314+05:30  INFO 90734 --- [assignment] [scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 70d6ff42debf7e17
+2024-11-24T22:58:38.314+05:30  INFO 90734 --- [assignment] [scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1732469318313
+2024-11-24T22:58:38.465+05:30  INFO 90734 --- [assignment] [kafka-producer-network-thread | assignment-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=assignment-producer-1] Cluster ID: JnDp-J5DSYSX2sRZLOs_wg
+2024-11-24T22:58:38.472+05:30  INFO 90734 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 31
+2024-11-24T22:58:38.606+05:30  INFO 90734 --- [assignment] [kafka-producer-network-thread | assignment-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=assignment-producer-1] ProducerId set to 0 with epoch 0
+2024-11-24T22:58:55.035+05:30  INFO 90734 --- [assignment] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-24T22:58:56.041+05:30  INFO 90734 --- [assignment] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-11-24T22:58:56.176+05:30  INFO 90734 --- [assignment] [SpringApplicationShutdownHook] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=assignment-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-11-24T22:58:56.182+05:30  INFO 90734 --- [assignment] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2024-11-24T22:58:56.183+05:30  INFO 90734 --- [assignment] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-24T22:58:56.183+05:30  INFO 90734 --- [assignment] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-11-24T22:58:56.183+05:30  INFO 90734 --- [assignment] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2024-11-24T22:58:56.183+05:30  INFO 90734 --- [assignment] [SpringApplicationShutdownHook] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for assignment-producer-1 unregistered
+2024-11-24T22:58:58.407+05:30  INFO 90748 --- [assignment] [main] c.v.a.init.AssignmentApplication         : Starting AssignmentApplication using Java 17.0.5 with PID 90748 (/Users/shprasad/Desktop/Projects/assignment/build/classes/java/main started by shprasad in /Users/shprasad/Desktop/Projects/assignment)
+2024-11-24T22:58:58.408+05:30  INFO 90748 --- [assignment] [main] c.v.a.init.AssignmentApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-11-24T22:58:58.840+05:30  INFO 90748 --- [assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-24T22:58:58.841+05:30  INFO 90748 --- [assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-24T22:58:58.858+05:30  INFO 90748 --- [assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-11-24T22:58:59.108+05:30  INFO 90748 --- [assignment] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9091 (http)
+2024-11-24T22:58:59.117+05:30  INFO 90748 --- [assignment] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-24T22:58:59.118+05:30  INFO 90748 --- [assignment] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-24T22:58:59.154+05:30  INFO 90748 --- [assignment] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-24T22:58:59.155+05:30  INFO 90748 --- [assignment] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 727 ms
+2024-11-24T22:58:59.724+05:30  INFO 90748 --- [assignment] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-11-24T22:58:59.760+05:30  INFO 90748 --- [assignment] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9091 (http) with context path '/'
+2024-11-24T22:58:59.771+05:30  INFO 90748 --- [assignment] [main] c.v.a.init.AssignmentApplication         : Started AssignmentApplication in 1.571 seconds (process running for 2.01)
+2024-11-24T22:58:59.968+05:30  INFO 90748 --- [assignment] [scheduling-1] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = assignment-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2024-11-24T22:58:59.992+05:30  INFO 90748 --- [assignment] [scheduling-1] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2024-11-24T22:59:00.000+05:30  INFO 90748 --- [assignment] [scheduling-1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=assignment-producer-1] Instantiated an idempotent producer.
+2024-11-24T22:59:00.023+05:30  INFO 90748 --- [assignment] [scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.8.1
+2024-11-24T22:59:00.025+05:30  INFO 90748 --- [assignment] [scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 70d6ff42debf7e17
+2024-11-24T22:59:00.025+05:30  INFO 90748 --- [assignment] [scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1732469340023
+2024-11-24T22:59:00.193+05:30  INFO 90748 --- [assignment] [kafka-producer-network-thread | assignment-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=assignment-producer-1] Cluster ID: JnDp-J5DSYSX2sRZLOs_wg
+2024-11-24T22:59:00.193+05:30  INFO 90748 --- [assignment] [kafka-producer-network-thread | assignment-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=assignment-producer-1] ProducerId set to 1 with epoch 0
+2024-11-24T22:59:00.200+05:30  INFO 90748 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
+2024-11-24T22:59:04.778+05:30  INFO 90748 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
+2024-11-24T22:59:06.939+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-24T22:59:06.939+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-24T22:59:06.940+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-24T22:59:06.958+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-1] c.v.a.controller.VerveController         : Processing endpoint: _TpkWKjf
+2024-11-24T22:59:07.375+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-2] c.v.a.controller.VerveController         : Processing endpoint: 4ksCKEPC
+2024-11-24T22:59:07.858+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-3] c.v.a.controller.VerveController         : Processing endpoint: QaTs6jYG
+2024-11-24T22:59:08.257+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-4] c.v.a.controller.VerveController         : Processing endpoint: 51oRiQul
+2024-11-24T22:59:08.554+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-5] c.v.a.controller.VerveController         : Processing endpoint: LF6UxLKh
+2024-11-24T22:59:08.819+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-6] c.v.a.controller.VerveController         : Processing endpoint: NLlN2ERM
+2024-11-24T22:59:09.017+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-10] c.v.a.controller.VerveController         : Processing endpoint: L8Ze4MzI
+2024-11-24T22:59:09.169+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-1] c.v.a.controller.VerveController         : Processing endpoint: yUZ4sdnF
+2024-11-24T22:59:09.313+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-2] c.v.a.controller.VerveController         : Processing endpoint: YdAKwd3p
+2024-11-24T22:59:09.579+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-3] c.v.a.controller.VerveController         : Processing endpoint: h6qU1gHv
+2024-11-24T22:59:09.695+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-4] c.v.a.controller.VerveController         : Processing endpoint: YShgoVo6
+2024-11-24T22:59:09.777+05:30  INFO 90748 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 10
+2024-11-24T22:59:09.826+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-5] c.v.a.controller.VerveController         : Processing endpoint: AklbVvSj
+2024-11-24T22:59:09.969+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-6] c.v.a.controller.VerveController         : Processing endpoint: Ca5ywhEu
+2024-11-24T22:59:10.111+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-8] c.v.a.controller.VerveController         : Processing endpoint: X40XWOS6
+2024-11-24T22:59:10.242+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-2] c.v.a.controller.VerveController         : Processing endpoint: gpVLxM6M
+2024-11-24T22:59:10.380+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-3] c.v.a.controller.VerveController         : Processing endpoint: VWn1QdzP
+2024-11-24T22:59:10.508+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-4] c.v.a.controller.VerveController         : Processing endpoint: EpdpvGDP
+2024-11-24T22:59:10.636+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-5] c.v.a.controller.VerveController         : Processing endpoint: a9mBje32
+2024-11-24T22:59:10.771+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-6] c.v.a.controller.VerveController         : Processing endpoint: ui7puWdc
+2024-11-24T22:59:10.897+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-7] c.v.a.controller.VerveController         : Processing endpoint: o59S3qEz
+2024-11-24T22:59:11.036+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-9] c.v.a.controller.VerveController         : Processing endpoint: iADCVqym
+2024-11-24T22:59:11.179+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-6] c.v.a.controller.VerveController         : Processing endpoint: XZOn3SoK
+2024-11-24T22:59:11.326+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-7] c.v.a.controller.VerveController         : Processing endpoint: OPdF54Qj
+2024-11-24T22:59:11.461+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-9] c.v.a.controller.VerveController         : Processing endpoint: HAik8pPi
+2024-11-24T22:59:11.590+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-1] c.v.a.controller.VerveController         : Processing endpoint: tUJfZyJ_
+2024-11-24T22:59:11.723+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-8] c.v.a.controller.VerveController         : Processing endpoint: jmY45sjm
+2024-11-24T22:59:11.868+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-3] c.v.a.controller.VerveController         : Processing endpoint: WN2MIocM
+2024-11-24T22:59:12.162+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-4] c.v.a.controller.VerveController         : Processing endpoint: eK0etrIb
+2024-11-24T22:59:12.276+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-5] c.v.a.controller.VerveController         : Processing endpoint: 7JZSksny
+2024-11-24T22:59:12.561+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-4] c.v.a.controller.VerveController         : Processing endpoint: KY7EUOW4
+2024-11-24T22:59:14.776+05:30  INFO 90748 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 17
+2024-11-24T22:59:19.781+05:30  INFO 90748 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
+2024-11-24T22:59:24.783+05:30  INFO 90748 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
+2024-11-24T22:59:29.781+05:30  INFO 90748 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
+2024-11-24T22:59:29.860+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-5] c.v.a.controller.VerveController         : Processing endpoint: lm8K3Xzz
+2024-11-24T22:59:30.015+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-4] c.v.a.controller.VerveController         : Processing endpoint: tgbbIDpO
+2024-11-24T22:59:30.177+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-7] c.v.a.controller.VerveController         : Processing endpoint: qeIVGonI
+2024-11-24T22:59:30.455+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-3] c.v.a.controller.VerveController         : Processing endpoint: r9BaFyQy
+2024-11-24T22:59:30.600+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-9] c.v.a.controller.VerveController         : Processing endpoint: eMbrtoTw
+2024-11-24T22:59:30.737+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-10] c.v.a.controller.VerveController         : Processing endpoint: 9mU9XalS
+2024-11-24T22:59:30.889+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-2] c.v.a.controller.VerveController         : Processing endpoint: t298Sqan
+2024-11-24T22:59:31.027+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-1] c.v.a.controller.VerveController         : Processing endpoint: ZnM9zNus
+2024-11-24T22:59:31.165+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-8] c.v.a.controller.VerveController         : Processing endpoint: JrbIx3ge
+2024-11-24T22:59:31.310+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-6] c.v.a.controller.VerveController         : Processing endpoint: a7yJhuXj
+2024-11-24T22:59:31.441+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-5] c.v.a.controller.VerveController         : Processing endpoint: XTn6sQZm
+2024-11-24T22:59:31.577+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-4] c.v.a.controller.VerveController         : Processing endpoint: EfChq_bL
+2024-11-24T22:59:31.710+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-7] c.v.a.controller.VerveController         : Processing endpoint: iCWtCfZ3
+2024-11-24T22:59:31.827+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-8] c.v.a.controller.VerveController         : Processing endpoint: owUZOuZh
+2024-11-24T22:59:31.939+05:30  INFO 90748 --- [assignment] [http-nio-9091-exec-6] c.v.a.controller.VerveController         : Processing endpoint: nvW5h9jX
+2024-11-24T22:59:34.773+05:30  INFO 90748 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 14
+2024-11-24T22:59:36.124+05:30  INFO 90748 --- [assignment] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-24T22:59:37.128+05:30  INFO 90748 --- [assignment] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-11-24T22:59:37.241+05:30  INFO 90748 --- [assignment] [SpringApplicationShutdownHook] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=assignment-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-11-24T22:59:37.246+05:30  INFO 90748 --- [assignment] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2024-11-24T22:59:37.246+05:30  INFO 90748 --- [assignment] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-11-24T22:59:37.246+05:30  INFO 90748 --- [assignment] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-11-24T22:59:37.246+05:30  INFO 90748 --- [assignment] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2024-11-24T22:59:37.247+05:30  INFO 90748 --- [assignment] [SpringApplicationShutdownHook] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for assignment-producer-1 unregistered
+2024-11-24T22:59:39.173+05:30  INFO 90774 --- [assignment] [main] c.v.a.init.AssignmentApplication         : Starting AssignmentApplication using Java 17.0.5 with PID 90774 (/Users/shprasad/Desktop/Projects/assignment/build/classes/java/main started by shprasad in /Users/shprasad/Desktop/Projects/assignment)
+2024-11-24T22:59:39.175+05:30  INFO 90774 --- [assignment] [main] c.v.a.init.AssignmentApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-11-24T22:59:39.572+05:30  INFO 90774 --- [assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-24T22:59:39.574+05:30  INFO 90774 --- [assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-24T22:59:39.587+05:30  INFO 90774 --- [assignment] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-11-24T22:59:39.816+05:30  INFO 90774 --- [assignment] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9091 (http)
+2024-11-24T22:59:39.823+05:30  INFO 90774 --- [assignment] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-24T22:59:39.823+05:30  INFO 90774 --- [assignment] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-24T22:59:39.848+05:30  INFO 90774 --- [assignment] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-24T22:59:39.848+05:30  INFO 90774 --- [assignment] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 655 ms
+2024-11-24T22:59:40.380+05:30  INFO 90774 --- [assignment] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-11-24T22:59:40.423+05:30  INFO 90774 --- [assignment] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9091 (http) with context path '/'
+2024-11-24T22:59:40.435+05:30  INFO 90774 --- [assignment] [main] c.v.a.init.AssignmentApplication         : Started AssignmentApplication in 1.448 seconds (process running for 1.852)
+2024-11-24T22:59:40.640+05:30  INFO 90774 --- [assignment] [scheduling-1] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = assignment-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2024-11-24T22:59:40.658+05:30  INFO 90774 --- [assignment] [scheduling-1] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2024-11-24T22:59:40.665+05:30  INFO 90774 --- [assignment] [scheduling-1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=assignment-producer-1] Instantiated an idempotent producer.
+2024-11-24T22:59:40.686+05:30  INFO 90774 --- [assignment] [scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.8.1
+2024-11-24T22:59:40.687+05:30  INFO 90774 --- [assignment] [scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 70d6ff42debf7e17
+2024-11-24T22:59:40.687+05:30  INFO 90774 --- [assignment] [scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1732469380685
+2024-11-24T22:59:40.831+05:30  INFO 90774 --- [assignment] [kafka-producer-network-thread | assignment-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=assignment-producer-1] Cluster ID: JnDp-J5DSYSX2sRZLOs_wg
+2024-11-24T22:59:40.831+05:30  INFO 90774 --- [assignment] [kafka-producer-network-thread | assignment-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=assignment-producer-1] ProducerId set to 2 with epoch 0
+2024-11-24T22:59:40.837+05:30  INFO 90774 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
+2024-11-24T23:00:40.451+05:30  INFO 90774 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
+2024-11-24T23:01:40.442+05:30  INFO 90774 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
+2024-11-24T23:02:40.455+05:30  INFO 90774 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
+2024-11-24T23:03:40.440+05:30  INFO 90774 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
+2024-11-24T23:04:40.444+05:30  INFO 90774 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
+2024-11-24T23:05:40.446+05:30  INFO 90774 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
+2024-11-24T23:06:40.444+05:30  INFO 90774 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
+2024-11-24T23:07:40.445+05:30  INFO 90774 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
+2024-11-24T23:08:40.451+05:30  INFO 90774 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
+2024-11-24T23:09:10.476+05:30  INFO 90774 --- [assignment] [kafka-producer-network-thread | assignment-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=assignment-producer-1] Node -1 disconnected.
+2024-11-24T23:09:40.445+05:30  INFO 90774 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
+2024-11-24T23:10:40.443+05:30  INFO 90774 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
+2024-11-24T23:11:40.450+05:30  INFO 90774 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
+2024-11-24T23:12:40.446+05:30  INFO 90774 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
+2024-11-24T23:13:40.440+05:30  INFO 90774 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
+2024-11-24T23:14:40.447+05:30  INFO 90774 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
+2024-11-24T23:15:40.451+05:30  INFO 90774 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
+2024-11-24T23:16:40.438+05:30  INFO 90774 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
+2024-11-24T23:17:40.445+05:30  INFO 90774 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
+2024-11-24T23:18:40.445+05:30  INFO 90774 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
+2024-11-24T23:19:10.453+05:30  INFO 90774 --- [assignment] [kafka-producer-network-thread | assignment-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=assignment-producer-1] Node -1 disconnected.
+2024-11-24T23:19:40.443+05:30  INFO 90774 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
+2024-11-24T23:20:40.451+05:30  INFO 90774 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
+2024-11-24T23:21:40.446+05:30  INFO 90774 --- [assignment] [scheduling-1] c.v.a.controller.VerveController         : Sent unique count to Kafka topic 'unique-counts': Unique count in the last minute: 0
