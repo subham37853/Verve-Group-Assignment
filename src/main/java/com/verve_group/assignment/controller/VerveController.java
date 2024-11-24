@@ -36,20 +36,15 @@ public class VerveController {
     // Accept request and deduplicate based on ID using Redis
     @PostMapping("/accept")
     public String acceptRequest(@RequestParam int id, @RequestParam(required = false) String endpoint) {
-        try {
-            // Deduplicate using Redis Set (set ensures uniqueness)
-            redisTemplate.opsForSet().add(UNIQUE_IDS_KEY, String.valueOf(id));
+        // Deduplicate using Redis Set (set ensures uniqueness)
+        redisTemplate.opsForSet().add(UNIQUE_IDS_KEY, String.valueOf(id));
 
-            // Optionally process the endpoint
-            if (endpoint != null && !endpoint.isEmpty()) {
-                logger.info("Processing endpoint: {}", endpoint);
-            }
-
-            return "ok";
-        } catch (Exception e) {
-            logger.error("Error processing request: {}", e.getMessage(), e);
-            return "failed";
+        // Optionally process the endpoint
+        if (endpoint != null && !endpoint.isEmpty()) {
+            logger.info("Processing endpoint: {}", endpoint);
         }
+
+        return "ok";
     }
 
     /**
@@ -57,23 +52,18 @@ public class VerveController {
      */
     @Scheduled(fixedRate = 60000) // Every 1 minute
     public void sendUniqueCount() {
-        try {
-            // Get the unique count of IDs from Redis Set
-            Long uniqueCount = redisTemplate.opsForSet().size(UNIQUE_IDS_KEY);
+        // Get the unique count of IDs from Redis Set
+        Long uniqueCount = redisTemplate.opsForSet().size(UNIQUE_IDS_KEY);
 
-            // Send the unique count to Kafka
-            String message = String.format("Unique count in the last minute: %d", uniqueCount);
-            kafkaTemplate.send(KAFKA_TOPIC, message);
+        // Send the unique count to Kafka
+        String message = String.format("Unique count in the last minute: %d", uniqueCount);
+        kafkaTemplate.send(KAFKA_TOPIC, message);
 
-            // Log the message
-            logger.info("Sent unique count to Kafka topic '{}': {}", KAFKA_TOPIC, message);
+        // Log the message
+        logger.info("Sent unique count to Kafka topic '{}': {}", KAFKA_TOPIC, message);
 
-            // Clear the Redis Set for the next minute
-            redisTemplate.delete(UNIQUE_IDS_KEY);
-
-        } catch (Exception e) {
-            logger.error("Error sending unique count to Kafka: {}", e.getMessage(), e);
-        }
+        // Clear the Redis Set for the next minute
+        redisTemplate.delete(UNIQUE_IDS_KEY);
     }
 }
 
