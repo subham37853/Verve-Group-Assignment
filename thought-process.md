@@ -36,12 +36,9 @@ This document outlines the thought process behind building the Verve application
         - Retrieve the count of unique IDs from Redis.
         - Send the count to Kafka.
         - Clear Redis data to prepare for the next minute.
-     
+
 > Below attached Architecture Diagram shows that the Periodic Scheduler can be separated in a different service.
-
 ![Verve Group Design](https://github.com/user-attachments/assets/bca63fa1-092b-4f27-be3f-10134d761ab1)
-
-
 ---
 
 ## 3. Challenges and Solutions
